@@ -1,0 +1,216 @@
+body {
+	background-image: url("../images/Backgroud-pic.png");
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777;
+  line-height: 28px;
+}
+
+*{
+	box-sizing: border-box;
+}
+  
+  /* Main Page */
+  
+  /* Sticky Footer */
+  
+#container {
+	min-height: calc(100vh - 264px);
+}
+  
+  /* General Styling */
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: 50px;
+	background-color: white;
+	border-color: white;
+}
+h1, h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 30px;
+	border-bottom: 2px solid #ccc;
+}
+  
+h2 {
+  font-size: 22px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+/* for navigation bar */
+
+header {
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #ccc;
+}
+  
+#logo {
+  float: left;
+  display: block;
+	background-color: #4aaaa5;
+	color:#fff;
+	font-family: "Georgia";
+	font-size: 30px;
+	padding: 0 40px;
+	line-height: 100px;
+	font-weight: bold;
+	text-decoration: none;
+}
+  
+.navbar-brand {
+	height: 100%;
+}
+
+#wrapper {
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+	padding-right:15px; 
+}
+  
+footer {
+  text-align: center;
+  background-color: #777;
+  color: #ccc;
+  line-height: 70px;
+  margin-top: 40px;
+  border-top: 8px solid #4aaaa5;
+	font-size: 12px;
+	clear: both;
+}
+
+#mainbox {
+	align-self: center;
+	clear: both;
+	display: block;
+}
+  
+.module {
+  background-color: #fff;
+  padding: 50px;
+	border: 1px solid #ddd;
+	margin: 50px;
+}
+
+.pic {
+  float: left;
+  margin-right: 30px;
+}
+  
+  /* Contact */
+  
+
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+	display: block;
+	width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+	height: 35px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+  }
+  
+  textarea {
+	height: 200px;
+  }
+  
+  
+  /* Portfolio */
+  
+  .work {
+	position: relative;
+	float: left;
+	width: 200px;
+	margin: 10px;
+	overflow: auto;
+  }
+  
+  
+  .work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+  }
+  
+  .work h3 {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 10px;
+	color: #fff;
+	text-align: center;
+	background: #4aaaa5;
+	border-bottom: 0;
+	font-family: "Georgia";
+	font-size: 16px;
+  }
+	
+#portfolio-content {
+		height: 400px;
+	}
+  /* Hover */
+  #logo:hover,
+  input[type=submit]:hover {
+	background: #5e7f7e;
+  }
+  
+  nav a:hover {
+	color: #5e7f7e;
+  }
+  
+  .social:hover {
+	cursor: pointer;
+	opacity: 0.8;
+  }
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+	float: right;
+	text-align: justify;
+	align-self: center;
+	margin: 25px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 30px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	background: #4aaaa5;
+	border: 0 none;
+}
