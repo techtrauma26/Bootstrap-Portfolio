@@ -79,6 +79,11 @@ header {
 	overflow: hidden;
 	padding-right:15px; 
 }
+
+.navbar-default {
+	background-color: white;
+	border-color: white;
+}
   
 footer {
   text-align: center;
